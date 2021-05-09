@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item android:id="@+id/nav_home"
+    android:icon="@drawable/tsev"
+    android:title="@string/tsev"
+        app:showAsAction="ifRoom"/>
+    <item android:id="@+id/nav_schoole"
+        android:icon="@drawable/school"
+        android:title="@string/kk"
+        app:showAsAction="ifRoom"
+        />
+    <item android:id="@+id/nav_infor"
+        android:icon="@drawable/infor"
+        android:title="@string/jj"
+        app:showAsAction="ifRoom"/>
+</menu>

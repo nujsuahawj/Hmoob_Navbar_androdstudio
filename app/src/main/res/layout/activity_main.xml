@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout  xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:padding="8dp">
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="300dp"
+                app:cardElevation="20dp"
+                app:cardCornerRadius="30dp"
+                android:layout_margin="10dp">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:orientation="vertical"
+                    android:background="@drawable/gradient"
+                    android:layout_height="match_parent">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:text="Name:huevang"
+                        android:textSize="15dp"
+                        android:textColor="#000"
+                        android:layout_marginTop="20dp"
+                        android:layout_marginLeft="20dp"
+                        android:textStyle="bold"
+                        android:layout_height="wrap_content"/>
+
+                    <EditText
+                        android:layout_width="300dp"
+                        android:layout_marginLeft="20dp"
+                        android:hint="comment here"
+                        android:background="@color/white"
+                        android:layout_marginTop="20dp"
+                        android:layout_height="100dp"/>
+
+                    <Button
+                        android:layout_width="wrap_content"
+                        android:layout_marginTop="50dp"
+                        android:layout_marginLeft="40dp"
+                        android:text="Readmore"
+                        android:layout_height="wrap_content"/>
+                    <Button
+                        android:layout_width="wrap_content"
+                        android:layout_marginLeft="200dp"
+                        android:layout_marginTop="-50dp"
+                        android:text="details"
+                        android:layout_height="wrap_content"/>
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="300dp"
+            app:cardElevation="20dp"
+            app:cardCornerRadius="30dp"
+            android:layout_margin="10dp">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:orientation="vertical"
+                android:background="@drawable/gradient"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:text="Name:huevang"
+                    android:textSize="15dp"
+                    android:textColor="#000"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginLeft="20dp"
+                    android:textStyle="bold"
+                    android:layout_height="wrap_content"/>
+
+                <EditText
+                    android:layout_width="300dp"
+                    android:layout_marginLeft="20dp"
+                    android:hint="comment here"
+                    android:background="@color/white"
+                    android:layout_marginTop="20dp"
+                    android:layout_height="100dp"/>
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_marginTop="50dp"
+                    android:layout_marginLeft="40dp"
+                    android:text="Readmore"
+                    android:layout_height="wrap_content"/>
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_marginLeft="200dp"
+                    android:layout_marginTop="-50dp"
+                    android:text="details"
+                    android:layout_height="wrap_content"/>
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="300dp"
+            app:cardElevation="20dp"
+            app:cardCornerRadius="30dp"
+            android:layout_margin="10dp">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:orientation="vertical"
+                android:background="@drawable/gradient"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:text="Name:huevang"
+                    android:textSize="15dp"
+                    android:textColor="#000"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginLeft="20dp"
+                    android:textStyle="bold"
+                    android:layout_height="wrap_content"/>
+
+                <EditText
+                    android:layout_width="300dp"
+                    android:layout_marginLeft="20dp"
+                    android:hint="comment here"
+                    android:background="@color/white"
+                    android:layout_marginTop="20dp"
+                    android:layout_height="100dp"/>
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_marginTop="50dp"
+                    android:layout_marginLeft="40dp"
+                    android:text="Readmore"
+                    android:layout_height="wrap_content"/>
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_marginLeft="200dp"
+                    android:layout_marginTop="-50dp"
+                    android:text="details"
+                    android:layout_height="wrap_content"/>
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="300dp"
+            app:cardElevation="20dp"
+            app:cardCornerRadius="30dp"
+            android:layout_margin="10dp">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:orientation="vertical"
+                android:background="@drawable/gradient"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:text="Name:huevang"
+                    android:textSize="15dp"
+                    android:textColor="#000"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginLeft="20dp"
+                    android:textStyle="bold"
+                    android:layout_height="wrap_content"/>
+
+                <EditText
+                    android:layout_width="300dp"
+                    android:layout_marginLeft="20dp"
+                    android:hint="comment here"
+                    android:background="@color/white"
+                    android:layout_marginTop="20dp"
+                    android:layout_height="100dp"/>
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_marginTop="50dp"
+                    android:layout_marginLeft="40dp"
+                    android:text="Readmore"
+                    android:layout_height="wrap_content"/>
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_marginLeft="200dp"
+                    android:layout_marginTop="-50dp"
+                    android:text="details"
+                    android:layout_height="wrap_content"/>
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+
+
+
+    </LinearLayout>
+    </ScrollView>
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:layout_width="match_parent"
+        android:layout_height="79dp"
+        android:id="@+id/menu"
+       android:layout_alignParentBottom="true"
+        android:background="@color/cardview_dark_background"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0"
+        app:menu="@menu/bottom"
+        tools:ignore="MissingConstraints" />
+
+</RelativeLayout >
